@@ -1,0 +1,106 @@
+[2021-02-09T15:13:29.387] [INFO] normal -  check-presence - roomid : ds // true
+[2021-02-09T15:24:11.294] [INFO] normal - roomList[ds] is :: [object Object]
+[2021-02-09T15:24:11.296] [INFO] normal - roomList[roomid][i]['userid'] : 2vfp5vg3tew // socket.userid : 2vfp5vg3tew
+[2021-02-09T15:24:11.297] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:24:11.297] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:24:11.298] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:24:11.298] [INFO] normal - roomList[ds] is delete 
+[2021-02-09T15:24:14.326] [INFO] normal -  check-presence - roomid : ds // true
+[2021-02-09T15:24:15.367] [INFO] normal - roomList[ds] is :: [object Object]
+[2021-02-09T15:24:15.368] [INFO] normal - roomList[roomid][i]['userid'] : k5le5ssnkj // socket.userid : k5le5ssnkj
+[2021-02-09T15:24:15.368] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:24:15.369] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:24:15.370] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:24:15.371] [INFO] normal - roomList[ds] is delete 
+[2021-02-09T15:37:45.707] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:44:15.283] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:44:15.283] [INFO] normal - roomList[roomid][i]['userid'] : ceqycwb3nha // socket.userid : ceqycwb3nha
+[2021-02-09T15:44:15.283] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:44:15.285] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:44:15.285] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:44:15.285] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:44:18.619] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:45:00.812] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:45:00.813] [INFO] normal - roomList[roomid][i]['userid'] : 9nuac88t46 // socket.userid : 9nuac88t46
+[2021-02-09T15:45:00.813] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:45:00.814] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:45:00.814] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:45:00.814] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:45:04.108] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:45:55.591] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:45:55.592] [INFO] normal - roomList[roomid][i]['userid'] : 9bvdfsrbr1 // socket.userid : 9bvdfsrbr1
+[2021-02-09T15:45:55.592] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:45:55.593] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:45:55.593] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:45:55.593] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:45:58.912] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:46:10.344] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:46:10.345] [INFO] normal - roomList[roomid][i]['userid'] : caxm168c6s4 // socket.userid : caxm168c6s4
+[2021-02-09T15:46:10.346] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:46:10.346] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:46:10.346] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:46:10.347] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:46:13.669] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:46:29.170] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:46:29.170] [INFO] normal - roomList[roomid][i]['userid'] : 8cwgocj3e9d // socket.userid : 8cwgocj3e9d
+[2021-02-09T15:46:29.171] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:46:29.171] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:46:29.173] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:46:29.175] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:46:32.558] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:46:46.180] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:46:46.181] [INFO] normal - roomList[roomid][i]['userid'] : 7gdirzm4jua // socket.userid : 7gdirzm4jua
+[2021-02-09T15:46:46.181] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:46:46.182] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:46:46.182] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:46:46.182] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:46:49.472] [INFO] normal -  check-presence - roomid : qqqqqq // true
+[2021-02-09T15:48:34.279] [INFO] normal - roomList[qqqqqq] is :: [object Object]
+[2021-02-09T15:48:34.280] [INFO] normal - roomList[roomid][i]['userid'] : 71jg8yl5ytx // socket.userid : 71jg8yl5ytx
+[2021-02-09T15:48:34.281] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:48:34.281] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:48:34.281] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:48:34.282] [INFO] normal - roomList[qqqqqq] is delete 
+[2021-02-09T15:48:43.695] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:49:49.944] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:49:49.945] [INFO] normal - roomList[roomid][i]['userid'] : g56gk4invze // socket.userid : g56gk4invze
+[2021-02-09T15:49:49.947] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:49:49.948] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:49:49.948] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:49:49.949] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:49:53.115] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:52:30.093] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:52:30.094] [INFO] normal - roomList[roomid][i]['userid'] : brv2dwmikud // socket.userid : brv2dwmikud
+[2021-02-09T15:52:30.094] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:52:30.094] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:52:30.094] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:52:30.094] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:52:33.442] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:55:03.336] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:55:03.342] [INFO] normal - roomList[roomid][i]['userid'] : ffxrhqbok2o // socket.userid : ffxrhqbok2o
+[2021-02-09T15:55:03.345] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:55:03.348] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:55:03.349] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:55:03.350] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:55:06.665] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:55:23.219] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:55:23.219] [INFO] normal - roomList[roomid][i]['userid'] : fwgxa5jrmte // socket.userid : fwgxa5jrmte
+[2021-02-09T15:55:23.220] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:55:23.220] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:55:23.220] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:55:23.221] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:55:26.577] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:55:33.870] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:55:33.872] [INFO] normal - roomList[roomid][i]['userid'] : mktdrr3uah // socket.userid : mktdrr3uah
+[2021-02-09T15:55:33.884] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:55:33.885] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:55:33.885] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:55:33.885] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:55:37.174] [INFO] normal -  check-presence - roomid : asd // true
+[2021-02-09T15:55:48.451] [INFO] normal - roomList[asd] is :: [object Object]
+[2021-02-09T15:55:48.451] [INFO] normal - roomList[roomid][i]['userid'] : cwtm13ql03t // socket.userid : cwtm13ql03t
+[2021-02-09T15:55:48.452] [INFO] normal - -- delete(i == 0)
+[2021-02-09T15:55:48.452] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-09T15:55:48.452] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-09T15:55:48.452] [INFO] normal - roomList[asd] is delete 
+[2021-02-09T15:55:51.770] [INFO] normal -  check-presence - roomid : asd // true
