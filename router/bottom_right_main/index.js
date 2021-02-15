@@ -3,22 +3,24 @@ var router = express.Router();
 var path = require('path');
 
 router.get('/', function(req, res) {
-    var id = req.user;
-    var user_id;
-    var nickname;
-    var auth_type;
+    //var id = req.session.passport.user;
+    //var user_email = id.email;
+    //var nickname = id.nickname;
+    //var auth_type;
     
-    if(id && id.user_id) user_id = id.user_id;
-    if(id && id.nickname) nickname = id.nickname;
-    if(id && id.auth_type) auth_type = id.auth_type;
+    var user = req.user;
+    
+    //if(id && id.user_email) user_email = id.email;
+    //if(id && id.nickname) nickname = id.nickname;
+    //if(id && id.auth_type) auth_type = id.auth_type;
 
-    if (!id) {
-        res.render('./member/bottom_right_main.ejs', { isLogin: false , nickname : '' , auth_type : ''});
+    if (!user) {
+        res.render('./member/bottom_right_main.ejs', { isLogin: false , nickname : ''  /*auth_type : ''*/});
     }
     else {
-        res.render('./member/bottom_right_main.ejs', { isLogin: true , nickname : nickname , auth_type : auth_type} );
+        console.log(user);
+        res.render('./member/bottom_right_main.ejs', { isLogin: true , email : user.email , nickname : user.nickname /*auth_type : auth_type} */});
     }
-
 });
 
 module.exports = router;

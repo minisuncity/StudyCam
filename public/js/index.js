@@ -17,7 +17,7 @@ $(document).ready(function(){
 	// 로그인체크 후 유니크룸 확인
 	if($('#userName').val() && $('#userName').val().length > 0) getUniqueRoom();
 	
-	// 그룹명 input tag
+	// 그룹명 input taggetIndexEjs();
 	$('.bottom_right').on('keydown', '#room-id', function(key) {
 		if(key.keyCode != 13) return;
 //		$('#userName').focus();
@@ -43,6 +43,11 @@ $(document).ready(function(){
 
 	});
 	
+	//로그아웃 버튼
+	$('#logoutBtn').click(function(){
+		logout();
+	});
+
 	// 비회원 버튼
 	$('.bottom_right').on('click', '#notLoginDiv', function(){
 		location.reload();
@@ -74,28 +79,93 @@ $(document).ready(function(){
 	$('#open-or-join-room').click(function(){
 		openOrJoinRoomFnt();
 	});
-	
-	
-
 });
+
 
 // 뒤로가기 뒤로 가기 버튼
 $(document).on("click","#btn-login-back",function(){
 	
-	alert( "aoao" );
 	
 	var element = document.getElementById("login-screen");
-	for (i = 0; i < element.children.length; i++) {
+	for (i = element.children.length-1; i >= 0; i--) {
 		element.removeChild(element.children[i]);	
 	}
-	
+	getReady();
 });
 
+function getReady(){
+	getIndexEjs();
+	browserCheck(true);
+	
+	// 대화명 초기화
+	$.removeCookie('userName');
+	$('#userName').css('display', 'none');
+	
+	// 로그인체크 후 유니크룸 확인
+	if($('#userName').val() && $('#userName').val().length > 0) getUniqueRoom();
+	
+	// 그룹명 input taggetIndexEjs();
+	$('.bottom_right').on('keydown', '#room-id', function(key) {
+		if(key.keyCode != 13) return;
+//		$('#userName').focus();
+		$('#open-or-join-room').trigger('click');
+	});
+	
+	// 대화명 input tag
+	$('#userName').keydown(function(key) {
+		if(key.keyCode != 13) return;
+		$('#open-or-join-room').trigger('click');
+	});
+	
+	
+	// 로그인 버튼
+	//$('.bottom_right').on('click', '#openLoginDiv', function(){
+	//	loginUISet();
+	//});
+	// 로그인 버튼
+	$('#opneLoginDiv').click(function(){
+		//loginUISet();
 
-//로그인 뒤로 가기 뒤로가기 버튼 동작
-function getBackLogin()
-{
-	getIndexEjs();//?
+		opneLogin();
+
+	});
+	
+	//로그아웃 버튼
+	$('#logoutBtn').click(function(){
+		logout();
+	});
+
+	// 비회원 버튼
+	$('.bottom_right').on('click', '#notLoginDiv', function(){
+		location.reload();
+	});
+	
+	// 회원가입 버튼
+	//$('.bottom_right').on('click', '#openSignupDiv', function(){
+	//	signupUISet();
+	//});
+	// 회원가입 버튼
+	$('#openSingupDiv').click(function(){
+		openSignup();
+	});
+	
+	// SNS icon button
+	$('.bottom_right').on('click', '.btn-login img', function(){
+		if($(this).attr('alt') != 'Hamonikr') {
+			location.href='https://' + location.host + '/login/' + $(this).attr('alt');
+		} else {
+//			location.href='http://localhost/hamoniRenewal/acountLogin.php';
+			location.href='http://hamonikr.org/acountLogin.php';
+//			if($(this).data('name') == 'login') location.href='http://hamonikr.org/acountLogin.php';
+//			if($(this).data('name') == 'join') location.href='http://hamonikr.org/index.php?mid=menu_home&act=dispMemberSignUpForm';
+		}
+	});
+	
+	
+	// 접속 또는 참여하기 버튼
+	$('#open-or-join-room').click(function(){
+		openOrJoinRoomFnt();
+	});
 
 }
 
@@ -199,15 +269,8 @@ function openOrJoinRoomFnt(){
 function opneLogin(){
 	//로그인 화면 불러오기
 	//parent-box 영역 삭제
-	var arr = [];
+	$(".parent-box").html("");
 
-	arr[0] = document.querySelector('.box2');
-	arr[1] = document.querySelector('.box3');
-	arr[2] = document.querySelector('.box4');
-
-	for(var i = 0; i < 3; i++){
-		arr[i].parentNode.removeChild(arr[i]);
-	}
 	//ajax로 html 불러오기
 	//login.html 불러오기
 	$.get("/../html/login.html", function(data){
@@ -222,4 +285,17 @@ function openSignup(){
 	$.get("/../html/signup.html", function(data){
 		$(".parent-box").append($(data));
 	});
+}
+
+function logout(){
+	$(".parent-box").html("");
+	
+	//logout GET 요청
+	$.get('/logout');
+
+	//login.html 불러오기
+	//$.get("/../html/login.html", function(data){
+	//	$(".parent-box").append($(data));
+	//});
+	getReady();
 }
