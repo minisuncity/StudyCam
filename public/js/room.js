@@ -18,9 +18,7 @@ var fileSelectValue = '::::f!le$electCheckV@lue::::';
 var messageSplit = "::::H@moni@::split::::";
 var changeNameValue = '::::ch@nge::user::N@me::::';
 var newMsgCnt = 0; // 새 메세지 수
-var isRoomTimer = false; //타이머
-
-
+//var isRoomTimer = false; //타이머
 
 $(document).ready(function () {
 	// os 및 browser 체크
@@ -32,89 +30,17 @@ $(document).ready(function () {
 	// view 설정
 	if (!isUseReview) $('#userReview').empty();
 
+	//들어온 순서 지정하고 1234로 그리고 한명 나갈때마다 앞으로 몰아넣기로 재조정하기
+	//방장인지 확인하고 방장 설정
+	checkingIfMaster();
 });
-$('#slider').slider({ //타이머 슬라이더
 
-	// 최소값 (지정하지 않으면 0)
-	min: 0,
-
-	// 최대값 (지정하지 않으면 100)
-	max: 120,
-
-	// 슬라이더 현재값 (지정하지 않으면 0)
-	value: 60,
-
-	// 증가하는 단계값 (지정하지 않으면 1)
-	step: 10,
-
-	// 슬라이더를 움직일때 실행할 코드
-
-	slide: function (event, ui) {
-
-		// ui.value 는 현재 슬라이더의 값
-
-		$('#sliderText').html(ui.value + '분')
-
+function checkingIfMaster(){
+	if(document.querySelector('#userCnt').textContent == '1/4'){
+		// 인원수 체크
+	user.master = True;
 	}
-
-});
-
-//타이머 타이머시작 타이머 시작 버튼
-$(document).on("click","#startButton",function(){
-	
-	alert("arar");
-	
-});
-
-function timer(){
-	var today = new Date();
-	var h = today.getHours();
-	var m = today.getMinutes();
-	var s = today.getSeconds();
-
-
-
- 	if(s < 10){
-	 	s = "0"+s;
- 	}
- 	if (m < 10) {
-		m = "0" + m;
-	}
-
-$('#sliderText').html(h+" : "+m+" : "+s)
-
- setTimeout(function(){getdate()}, 500);
- 
 }
-
-function countdown( elementName, minutes, seconds )
-{
-    var element, endTime, hours, mins, msLeft, time;
-
-    function twoDigits( n )
-    {
-        return (n <= 9 ? "0" + n : n);
-    }
-
-    function updateTimer()
-    {
-        msLeft = endTime - (+new Date);
-        if ( msLeft < 1000 ) {
-            element.innerHTML = "countdown's over!";
-        } else {
-            time = new Date( msLeft );
-            hours = time.getUTCHours();
-            mins = time.getUTCMinutes();
-            element.innerHTML = (hours ? hours + ':' + twoDigits( mins ) : mins) + ':' + twoDigits( time.getUTCSeconds() );
-            setTimeout( updateTimer, time.getUTCMilliseconds() + 500 );
-        }
-    }
-
-    element = document.getElementById( elementName );
-    endTime = (+new Date) + 1000 * (60*minutes + seconds) + 500;
-    updateTimer();
-}
-
 
 
 // 카메라 유무 확인 및 권한 확인(브라우저명)
@@ -255,7 +181,7 @@ function roomOpenNJoinFnt() {
 	}
 
 	// 대화명 설정
-	if ($.cookie('userName') != null) $('#userName').val($.cookie('userName')); //쿠키에 저장된 userName이 null이 아니면 userName으로 설정
+	if ($.cookie('nickName') != null) $('#userName').val($.cookie('nickName')); //쿠키에 저장된 userName이 null이 아니면 userName으로 설정
 	else $('#userName').val('Guest'); //userName이 저장돼있지 않다면 Guset로 설정
 
 
@@ -282,6 +208,11 @@ document.getElementById('btn-leave-room').onclick = function () {
 	//타이머가 남았는지 판단하고
 	//남았으면 패널티 부여하고 퇴장
 	//if(타이머?){req.user.penalty 어떻게 접근? }
+
+	if(window.leaveFlag == true){//타이머가 동작 중이면
+		var userEmail = $('#roomEmail').text(); //해당 사용자의 이메일을 가져와서
+		if(confirm("지금 종료하시면 패널티가 부가됩니다.")) $.post('/penalty', {email : userEmail}); // 패널티를 부여하기 위해 /penalty로 사용자 이메일 전달
+	}
 
 	if (isOnlyOneOwnerFnt && connection.isInitiator) {
 		// use this method if you did NOT set "autoCloseEntireSession===true"
@@ -647,9 +578,9 @@ connection.onstream = function (event) {
 		// 내 영상
 		video.muted = true;
 		video.id = "myVideo";
-
+		
 		// 닉네임 설정
-		if ($.cookie('userName') != null) video.setAttribute('data-name', $.cookie('userName'));
+		if ($.cookie('nickName') != null) video.setAttribute('data-name', $.cookie('nickName'));
 		else video.setAttribute('data-name', 'Guest');
 
 		localStream = event.stream;
@@ -661,7 +592,7 @@ connection.onstream = function (event) {
 		}
 
 		roomName = $('#room-id').val();
-		userName = $('#userName').val();
+		userName = $('#userName').val(); //유저이름
 
 		//		if(userName.indexOf(messageSplit) != -1){
 		//			userName = 'Guest' + userName.split(messageSplit)[1];
@@ -1009,7 +940,7 @@ if (roomid && roomid.length && $('#userName').val() !== undefined && $('#userNam
 
 				roomName = $('#room-id').val();
 				userName = $('#userName').val();
-
+				//여기선 권한을 !방장
 				$('#joinRoom').css('display', 'block');
 				$('#createRoom').remove();
 

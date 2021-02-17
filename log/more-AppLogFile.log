@@ -1,225 +1,56 @@
-[2021-02-10T15:00:22.294] [DEBUG] application - debug
-[2021-02-10T15:00:22.297] [INFO] application - info
-[2021-02-10T15:00:22.297] [ERROR] application - error
-[2021-02-10T15:00:22.297] [FATAL] application - fatal
-[2021-02-10T15:00:22.667] [DEBUG] signaling - debug
-[2021-02-10T15:00:22.668] [INFO] signaling - info
-[2021-02-10T15:00:22.668] [ERROR] signaling - error
-[2021-02-10T15:00:22.668] [FATAL] signaling - fatal
-[2021-02-10T15:00:22.699] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:00:22.700] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:00:22.700] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:00:22.700] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:00:22.700] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:00:22.700] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:00:22.700] [INFO] normal - ------------------------------
-[2021-02-10T15:02:49.316] [DEBUG] application - debug
-[2021-02-10T15:02:49.319] [INFO] application - info
-[2021-02-10T15:02:49.319] [ERROR] application - error
-[2021-02-10T15:02:49.319] [FATAL] application - fatal
-[2021-02-10T15:02:49.816] [DEBUG] signaling - debug
-[2021-02-10T15:02:49.816] [INFO] signaling - info
-[2021-02-10T15:02:49.817] [ERROR] signaling - error
-[2021-02-10T15:02:49.817] [FATAL] signaling - fatal
-[2021-02-10T15:02:49.853] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:02:49.853] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:02:49.854] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:02:49.854] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:02:49.854] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:02:49.854] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:02:49.854] [INFO] normal - ------------------------------
-[2021-02-10T15:02:53.981] [DEBUG] application - debug
-[2021-02-10T15:02:53.983] [INFO] application - info
-[2021-02-10T15:02:53.983] [ERROR] application - error
-[2021-02-10T15:02:53.983] [FATAL] application - fatal
-[2021-02-10T15:02:54.355] [DEBUG] signaling - debug
-[2021-02-10T15:02:54.355] [INFO] signaling - info
-[2021-02-10T15:02:54.355] [ERROR] signaling - error
-[2021-02-10T15:02:54.355] [FATAL] signaling - fatal
-[2021-02-10T15:02:54.387] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:02:54.387] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:02:54.388] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:02:54.388] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:02:54.388] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:02:54.388] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:02:54.388] [INFO] normal - ------------------------------
-[2021-02-10T15:03:41.770] [DEBUG] application - debug
-[2021-02-10T15:03:41.772] [INFO] application - info
-[2021-02-10T15:03:41.772] [ERROR] application - error
-[2021-02-10T15:03:41.772] [FATAL] application - fatal
-[2021-02-10T15:03:42.153] [DEBUG] signaling - debug
-[2021-02-10T15:03:42.154] [INFO] signaling - info
-[2021-02-10T15:03:42.154] [ERROR] signaling - error
-[2021-02-10T15:03:42.154] [FATAL] signaling - fatal
-[2021-02-10T15:03:42.187] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:03:42.188] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:03:42.188] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:03:42.188] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:03:42.188] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:03:42.188] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:03:42.188] [INFO] normal - ------------------------------
-[2021-02-10T15:04:05.575] [DEBUG] application - debug
-[2021-02-10T15:04:05.577] [INFO] application - info
-[2021-02-10T15:04:05.577] [ERROR] application - error
-[2021-02-10T15:04:05.577] [FATAL] application - fatal
-[2021-02-10T15:04:05.958] [DEBUG] signaling - debug
-[2021-02-10T15:04:05.958] [INFO] signaling - info
-[2021-02-10T15:04:05.958] [ERROR] signaling - error
-[2021-02-10T15:04:05.958] [FATAL] signaling - fatal
-[2021-02-10T15:04:05.994] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:04:05.995] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:04:05.995] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:04:05.995] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:04:05.995] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:04:05.995] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:04:05.996] [INFO] normal - ------------------------------
-[2021-02-10T15:04:23.366] [DEBUG] application - debug
-[2021-02-10T15:04:23.368] [INFO] application - info
-[2021-02-10T15:04:23.369] [ERROR] application - error
-[2021-02-10T15:04:23.369] [FATAL] application - fatal
-[2021-02-10T15:04:23.872] [DEBUG] signaling - debug
-[2021-02-10T15:04:23.872] [INFO] signaling - info
-[2021-02-10T15:04:23.873] [ERROR] signaling - error
-[2021-02-10T15:04:23.873] [FATAL] signaling - fatal
-[2021-02-10T15:04:23.910] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:04:23.910] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:04:23.911] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:04:23.911] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:04:23.911] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:04:23.911] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:04:23.911] [INFO] normal - ------------------------------
-[2021-02-10T15:30:52.937] [DEBUG] application - debug
-[2021-02-10T15:30:52.946] [INFO] application - info
-[2021-02-10T15:30:52.946] [ERROR] application - error
-[2021-02-10T15:30:52.947] [FATAL] application - fatal
-[2021-02-10T15:30:53.438] [DEBUG] signaling - debug
-[2021-02-10T15:30:53.438] [INFO] signaling - info
-[2021-02-10T15:30:53.438] [ERROR] signaling - error
-[2021-02-10T15:30:53.438] [FATAL] signaling - fatal
-[2021-02-10T15:30:53.480] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:30:53.481] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:30:53.481] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:30:53.481] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:30:53.481] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:30:53.481] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:30:53.481] [INFO] normal - ------------------------------
-[2021-02-10T15:31:32.003] [DEBUG] application - debug
-[2021-02-10T15:31:32.005] [INFO] application - info
-[2021-02-10T15:31:32.005] [ERROR] application - error
-[2021-02-10T15:31:32.005] [FATAL] application - fatal
-[2021-02-10T15:31:32.398] [DEBUG] signaling - debug
-[2021-02-10T15:31:32.399] [INFO] signaling - info
-[2021-02-10T15:31:32.399] [ERROR] signaling - error
-[2021-02-10T15:31:32.399] [FATAL] signaling - fatal
-[2021-02-10T15:31:32.428] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:31:32.428] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:31:32.428] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:31:32.429] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:31:32.429] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:31:32.429] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:31:32.429] [INFO] normal - ------------------------------
-[2021-02-10T15:31:47.814] [DEBUG] application - debug
-[2021-02-10T15:31:47.819] [INFO] application - info
-[2021-02-10T15:31:47.821] [ERROR] application - error
-[2021-02-10T15:31:47.822] [FATAL] application - fatal
-[2021-02-10T15:31:49.141] [DEBUG] signaling - debug
-[2021-02-10T15:31:49.142] [INFO] signaling - info
-[2021-02-10T15:31:49.142] [ERROR] signaling - error
-[2021-02-10T15:31:49.142] [FATAL] signaling - fatal
-[2021-02-10T15:31:49.181] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:31:49.182] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:31:49.182] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:31:49.182] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:31:49.182] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:31:49.182] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:31:49.182] [INFO] normal - ------------------------------
-[2021-02-10T15:32:02.618] [DEBUG] application - debug
-[2021-02-10T15:32:02.622] [INFO] application - info
-[2021-02-10T15:32:02.622] [ERROR] application - error
-[2021-02-10T15:32:02.622] [FATAL] application - fatal
-[2021-02-10T15:32:03.087] [DEBUG] signaling - debug
-[2021-02-10T15:32:03.087] [INFO] signaling - info
-[2021-02-10T15:32:03.087] [ERROR] signaling - error
-[2021-02-10T15:32:03.087] [FATAL] signaling - fatal
-[2021-02-10T15:32:03.122] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:32:03.122] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:32:03.122] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:32:03.122] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:32:03.122] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:32:03.123] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:32:03.123] [INFO] normal - ------------------------------
-[2021-02-10T15:33:08.285] [DEBUG] application - debug
-[2021-02-10T15:33:08.287] [INFO] application - info
-[2021-02-10T15:33:08.287] [ERROR] application - error
-[2021-02-10T15:33:08.287] [FATAL] application - fatal
-[2021-02-10T15:33:08.755] [DEBUG] signaling - debug
-[2021-02-10T15:33:08.755] [INFO] signaling - info
-[2021-02-10T15:33:08.755] [ERROR] signaling - error
-[2021-02-10T15:33:08.755] [FATAL] signaling - fatal
-[2021-02-10T15:33:08.787] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:33:08.787] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:33:08.787] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:33:08.787] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:33:08.788] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:33:08.788] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:33:08.788] [INFO] normal - ------------------------------
-[2021-02-10T15:41:29.809] [DEBUG] application - debug
-[2021-02-10T15:41:29.812] [INFO] application - info
-[2021-02-10T15:41:29.812] [ERROR] application - error
-[2021-02-10T15:41:29.812] [FATAL] application - fatal
-[2021-02-10T15:41:30.239] [DEBUG] signaling - debug
-[2021-02-10T15:41:30.240] [INFO] signaling - info
-[2021-02-10T15:41:30.240] [ERROR] signaling - error
-[2021-02-10T15:41:30.240] [FATAL] signaling - fatal
-[2021-02-10T15:41:30.275] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:41:30.275] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:41:30.275] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:41:30.275] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:41:30.276] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:41:30.276] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:41:30.276] [INFO] normal - ------------------------------
-[2021-02-10T15:44:59.996] [DEBUG] application - debug
-[2021-02-10T15:44:59.998] [INFO] application - info
-[2021-02-10T15:44:59.999] [ERROR] application - error
-[2021-02-10T15:44:59.999] [FATAL] application - fatal
-[2021-02-10T15:45:00.407] [DEBUG] signaling - debug
-[2021-02-10T15:45:00.407] [INFO] signaling - info
-[2021-02-10T15:45:00.407] [ERROR] signaling - error
-[2021-02-10T15:45:00.407] [FATAL] signaling - fatal
-[2021-02-10T15:45:00.441] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:45:00.441] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:45:00.442] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:45:00.442] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:45:00.442] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:45:00.442] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:45:00.442] [INFO] normal - ------------------------------
-[2021-02-10T15:59:11.464] [DEBUG] application - debug
-[2021-02-10T15:59:11.466] [INFO] application - info
-[2021-02-10T15:59:11.466] [ERROR] application - error
-[2021-02-10T15:59:11.466] [FATAL] application - fatal
-[2021-02-10T15:59:11.943] [DEBUG] signaling - debug
-[2021-02-10T15:59:11.944] [INFO] signaling - info
-[2021-02-10T15:59:11.944] [ERROR] signaling - error
-[2021-02-10T15:59:11.945] [FATAL] signaling - fatal
-[2021-02-10T15:59:11.995] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:59:11.996] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:59:11.996] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:59:11.997] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:59:11.997] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:59:11.997] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:59:11.997] [INFO] normal - ------------------------------
-[2021-02-10T15:59:46.946] [DEBUG] application - debug
-[2021-02-10T15:59:46.948] [INFO] application - info
-[2021-02-10T15:59:46.948] [ERROR] application - error
-[2021-02-10T15:59:46.949] [FATAL] application - fatal
-[2021-02-10T15:59:47.342] [DEBUG] signaling - debug
-[2021-02-10T15:59:47.343] [INFO] signaling - info
-[2021-02-10T15:59:47.343] [ERROR] signaling - error
-[2021-02-10T15:59:47.343] [FATAL] signaling - fatal
-[2021-02-10T15:59:47.373] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-10T15:59:47.374] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-10T15:59:47.374] [INFO] normal - socket.io is listening at:
-[2021-02-10T15:59:47.374] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-10T15:59:47.374] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-10T15:59:47.374] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-10T15:59:47.374] [INFO] normal - ------------------------------
+[2021-02-17T11:43:20.913] [INFO] normal - roomList[2] is :: [object Object]
+[2021-02-17T11:43:20.914] [INFO] normal - roomList[roomid][i]['userid'] : hakfx2r665h // socket.userid : hakfx2r665h
+[2021-02-17T11:43:20.915] [INFO] normal - -- delete(i == 0)
+[2021-02-17T11:43:20.915] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T11:43:20.915] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T11:43:20.915] [INFO] normal - roomList[2] is delete 
+[2021-02-17T11:43:25.100] [INFO] normal -  check-presence - roomid : 2 // true
+[2021-02-17T11:44:02.940] [INFO] normal - roomList[2] is :: [object Object]
+[2021-02-17T11:44:02.949] [INFO] normal - roomList[roomid][i]['userid'] : fs463o4zim // socket.userid : fs463o4zim
+[2021-02-17T11:44:02.962] [INFO] normal - -- delete(i == 0)
+[2021-02-17T11:44:02.963] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T11:44:02.967] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T11:44:02.967] [INFO] normal - roomList[2] is delete 
+[2021-02-17T11:44:12.151] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
+[2021-02-17T11:44:16.182] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
+[2021-02-17T11:44:16.183] [INFO] normal - roomList[roomid][i]['userid'] : 6c0ggjcly83 // socket.userid : 6c0ggjcly83
+[2021-02-17T11:44:16.184] [INFO] normal - -- delete(i == 0)
+[2021-02-17T11:44:16.185] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T11:44:16.185] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T11:44:16.190] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
+[2021-02-17T11:44:19.552] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
+[2021-02-17T11:44:22.025] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
+[2021-02-17T11:44:22.029] [INFO] normal - roomList[roomid][i]['userid'] : 7zcw0veugv // socket.userid : 7zcw0veugv
+[2021-02-17T11:44:22.030] [INFO] normal - -- delete(i == 0)
+[2021-02-17T11:44:22.035] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T11:44:22.038] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T11:44:22.039] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
+[2021-02-17T11:44:25.373] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
+[2021-02-17T11:44:28.477] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
+[2021-02-17T11:44:28.479] [INFO] normal - roomList[roomid][i]['userid'] : 6rpokyig9i // socket.userid : 6rpokyig9i
+[2021-02-17T11:44:28.479] [INFO] normal - -- delete(i == 0)
+[2021-02-17T11:44:28.480] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T11:44:28.481] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T11:44:28.482] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
+[2021-02-17T11:44:53.239] [INFO] normal -  check-presence - roomid : ffffff // true
+[2021-02-17T11:47:58.875] [DEBUG] application - debug
+[2021-02-17T11:47:58.877] [INFO] application - info
+[2021-02-17T11:47:58.877] [ERROR] application - error
+[2021-02-17T11:47:58.877] [FATAL] application - fatal
+[2021-02-17T11:47:59.361] [DEBUG] signaling - debug
+[2021-02-17T11:47:59.361] [INFO] signaling - info
+[2021-02-17T11:47:59.362] [ERROR] signaling - error
+[2021-02-17T11:47:59.362] [FATAL] signaling - fatal
+[2021-02-17T11:47:59.399] [INFO] normal - HTTP to HTTPS redirect app launched.
+[2021-02-17T11:47:59.399] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
+[2021-02-17T11:47:59.400] [INFO] normal - socket.io is listening at:
+[2021-02-17T11:47:59.400] [INFO] normal - [31m%s[0m 	https://localhost:443/
+[2021-02-17T11:47:59.400] [INFO] normal - Your web-browser (HTML file) MUST set this line:
+[2021-02-17T11:47:59.400] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
+[2021-02-17T11:47:59.400] [INFO] normal - ------------------------------
+[2021-02-17T11:48:10.330] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][socket] is :: [object Object]
+[2021-02-17T11:48:10.334] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][connectedWith] is :: [object Object]
+[2021-02-17T11:48:10.334] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][isPublic] is :: false
+[2021-02-17T11:48:10.336] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][extra] is :: [object Object]
+[2021-02-17T11:48:10.338] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][maxParticipantsAllowed] is :: 3
+[2021-02-17T11:48:11.358] [INFO] normal -  check-presence - roomid : ffffff // true
