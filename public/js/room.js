@@ -27,19 +27,28 @@ $(document).ready(function () {
 	// 카메라 유무 확인 및 권한 확인(브라우저명)
 	checkingHasCameraNPermission(browserCheckReturnText());
 
+	logger.info(' readyroom ');
+	
 	// view 설정
 	if (!isUseReview) $('#userReview').empty();
 
+	
 	//들어온 순서 지정하고 1234로 그리고 한명 나갈때마다 앞으로 몰아넣기로 재조정하기
 	//방장인지 확인하고 방장 설정
 	checkingIfMaster();
+
+
 });
 
-function checkingIfMaster(){
-	if(document.querySelector('#userCnt').textContent == '1/4'){
+function checkingIfMaster() {
+
+	if (connection.peers.getLength() <= 1) {
 		// 인원수 체크
-	user.master = True;
+		$.post('/master', {
+			master: true
+		}); // 방장 권한을 부여하기 위해 /master로 전달
 	}
+	logger.info('checkingIfMaster');
 }
 
 
@@ -209,9 +218,11 @@ document.getElementById('btn-leave-room').onclick = function () {
 	//남았으면 패널티 부여하고 퇴장
 	//if(타이머?){req.user.penalty 어떻게 접근? }
 
-	if(window.leaveFlag == true){//타이머가 동작 중이면
+	if (window.leaveFlag == true) { //타이머가 동작 중이면
 		var userEmail = $('#roomEmail').text(); //해당 사용자의 이메일을 가져와서
-		if(confirm("지금 종료하시면 패널티가 부가됩니다.")) $.post('/penalty', {email : userEmail}); // 패널티를 부여하기 위해 /penalty로 사용자 이메일 전달
+		if (confirm("지금 종료하시면 패널티가 부가됩니다.")) $.post('/penalty', {
+			email: userEmail
+		}); // 패널티를 부여하기 위해 /penalty로 사용자 이메일 전달
 	}
 
 	if (isOnlyOneOwnerFnt && connection.isInitiator) {
@@ -578,7 +589,7 @@ connection.onstream = function (event) {
 		// 내 영상
 		video.muted = true;
 		video.id = "myVideo";
-		
+
 		// 닉네임 설정
 		if ($.cookie('nickName') != null) video.setAttribute('data-name', $.cookie('nickName'));
 		else video.setAttribute('data-name', 'Guest');

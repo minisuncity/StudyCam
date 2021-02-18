@@ -134,7 +134,7 @@ $(document).ready(function(){
 
 		//타이머 설정값
 		setTime = $('#selectTime option:selected').val(); //이 값을 room.js로 전달 해야 함
-		if(setTime != 0) studyTimer();
+		if(setTime != 0 && leaveFlag == false) studyTimer();
 
 		
 		optionFnt();

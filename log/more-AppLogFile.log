@@ -1,56 +1,66 @@
-[2021-02-17T11:43:20.913] [INFO] normal - roomList[2] is :: [object Object]
-[2021-02-17T11:43:20.914] [INFO] normal - roomList[roomid][i]['userid'] : hakfx2r665h // socket.userid : hakfx2r665h
-[2021-02-17T11:43:20.915] [INFO] normal - -- delete(i == 0)
-[2021-02-17T11:43:20.915] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
-[2021-02-17T11:43:20.915] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
-[2021-02-17T11:43:20.915] [INFO] normal - roomList[2] is delete 
-[2021-02-17T11:43:25.100] [INFO] normal -  check-presence - roomid : 2 // true
-[2021-02-17T11:44:02.940] [INFO] normal - roomList[2] is :: [object Object]
-[2021-02-17T11:44:02.949] [INFO] normal - roomList[roomid][i]['userid'] : fs463o4zim // socket.userid : fs463o4zim
-[2021-02-17T11:44:02.962] [INFO] normal - -- delete(i == 0)
-[2021-02-17T11:44:02.963] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
-[2021-02-17T11:44:02.967] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
-[2021-02-17T11:44:02.967] [INFO] normal - roomList[2] is delete 
-[2021-02-17T11:44:12.151] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
-[2021-02-17T11:44:16.182] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
-[2021-02-17T11:44:16.183] [INFO] normal - roomList[roomid][i]['userid'] : 6c0ggjcly83 // socket.userid : 6c0ggjcly83
-[2021-02-17T11:44:16.184] [INFO] normal - -- delete(i == 0)
-[2021-02-17T11:44:16.185] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
-[2021-02-17T11:44:16.185] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
-[2021-02-17T11:44:16.190] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
-[2021-02-17T11:44:19.552] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
-[2021-02-17T11:44:22.025] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
-[2021-02-17T11:44:22.029] [INFO] normal - roomList[roomid][i]['userid'] : 7zcw0veugv // socket.userid : 7zcw0veugv
-[2021-02-17T11:44:22.030] [INFO] normal - -- delete(i == 0)
-[2021-02-17T11:44:22.035] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
-[2021-02-17T11:44:22.038] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
-[2021-02-17T11:44:22.039] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
-[2021-02-17T11:44:25.373] [INFO] normal -  check-presence - roomid : ㄴㄴㄴㄴㄴ // true
-[2021-02-17T11:44:28.477] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is :: [object Object]
-[2021-02-17T11:44:28.479] [INFO] normal - roomList[roomid][i]['userid'] : 6rpokyig9i // socket.userid : 6rpokyig9i
-[2021-02-17T11:44:28.479] [INFO] normal - -- delete(i == 0)
-[2021-02-17T11:44:28.480] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
-[2021-02-17T11:44:28.481] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
-[2021-02-17T11:44:28.482] [INFO] normal - roomList[ㄴㄴㄴㄴㄴ] is delete 
-[2021-02-17T11:44:53.239] [INFO] normal -  check-presence - roomid : ffffff // true
-[2021-02-17T11:47:58.875] [DEBUG] application - debug
-[2021-02-17T11:47:58.877] [INFO] application - info
-[2021-02-17T11:47:58.877] [ERROR] application - error
-[2021-02-17T11:47:58.877] [FATAL] application - fatal
-[2021-02-17T11:47:59.361] [DEBUG] signaling - debug
-[2021-02-17T11:47:59.361] [INFO] signaling - info
-[2021-02-17T11:47:59.362] [ERROR] signaling - error
-[2021-02-17T11:47:59.362] [FATAL] signaling - fatal
-[2021-02-17T11:47:59.399] [INFO] normal - HTTP to HTTPS redirect app launched.
-[2021-02-17T11:47:59.399] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
-[2021-02-17T11:47:59.400] [INFO] normal - socket.io is listening at:
-[2021-02-17T11:47:59.400] [INFO] normal - [31m%s[0m 	https://localhost:443/
-[2021-02-17T11:47:59.400] [INFO] normal - Your web-browser (HTML file) MUST set this line:
-[2021-02-17T11:47:59.400] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
-[2021-02-17T11:47:59.400] [INFO] normal - ------------------------------
-[2021-02-17T11:48:10.330] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][socket] is :: [object Object]
-[2021-02-17T11:48:10.334] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][connectedWith] is :: [object Object]
-[2021-02-17T11:48:10.334] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][isPublic] is :: false
-[2021-02-17T11:48:10.336] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][extra] is :: [object Object]
-[2021-02-17T11:48:10.338] [INFO] normal - onConnection start - listOfUsers[5dzftq3hkwl][maxParticipantsAllowed] is :: 3
-[2021-02-17T11:48:11.358] [INFO] normal -  check-presence - roomid : ffffff // true
+[2021-02-17T16:05:10.560] [DEBUG] application - debug
+[2021-02-17T16:05:10.563] [INFO] application - info
+[2021-02-17T16:05:10.563] [ERROR] application - error
+[2021-02-17T16:05:10.563] [FATAL] application - fatal
+[2021-02-17T16:05:11.195] [DEBUG] signaling - debug
+[2021-02-17T16:05:11.195] [INFO] signaling - info
+[2021-02-17T16:05:11.196] [ERROR] signaling - error
+[2021-02-17T16:05:11.196] [FATAL] signaling - fatal
+[2021-02-17T16:05:11.247] [INFO] normal - HTTP to HTTPS redirect app launched.
+[2021-02-17T16:05:11.248] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
+[2021-02-17T16:05:11.248] [INFO] normal - socket.io is listening at:
+[2021-02-17T16:05:11.248] [INFO] normal - [31m%s[0m 	https://localhost:443/
+[2021-02-17T16:05:11.248] [INFO] normal - Your web-browser (HTML file) MUST set this line:
+[2021-02-17T16:05:11.248] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
+[2021-02-17T16:05:11.249] [INFO] normal - ------------------------------
+[2021-02-17T16:05:16.218] [INFO] normal - roomList[fcfsdvfsdfcsdddddd] is :: undefined
+[2021-02-17T16:05:29.089] [INFO] normal -  check-presence - roomid : 13 // true
+[2021-02-17T16:05:44.276] [INFO] normal - roomList[13] is :: [object Object]
+[2021-02-17T16:05:44.277] [INFO] normal - roomList[roomid][i]['userid'] : 5e488road4k // socket.userid : 5e488road4k
+[2021-02-17T16:05:44.277] [INFO] normal - -- delete(i == 0)
+[2021-02-17T16:05:44.278] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T16:05:44.278] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T16:05:44.278] [INFO] normal - roomList[13] is delete 
+[2021-02-17T16:09:20.413] [DEBUG] application - debug
+[2021-02-17T16:09:20.415] [INFO] application - info
+[2021-02-17T16:09:20.415] [ERROR] application - error
+[2021-02-17T16:09:20.416] [FATAL] application - fatal
+[2021-02-17T16:09:20.982] [DEBUG] signaling - debug
+[2021-02-17T16:09:20.982] [INFO] signaling - info
+[2021-02-17T16:09:20.982] [ERROR] signaling - error
+[2021-02-17T16:09:20.982] [FATAL] signaling - fatal
+[2021-02-17T16:09:21.020] [INFO] normal - HTTP to HTTPS redirect app launched.
+[2021-02-17T16:09:21.020] [INFO] normal - ------------------------------ domainURL : https://localhost:443/
+[2021-02-17T16:09:21.020] [INFO] normal - socket.io is listening at:
+[2021-02-17T16:09:21.020] [INFO] normal - [31m%s[0m 	https://localhost:443/
+[2021-02-17T16:09:21.021] [INFO] normal - Your web-browser (HTML file) MUST set this line:
+[2021-02-17T16:09:21.021] [INFO] normal - [31m%s[0m connection.socketURL = "https://localhost:443/";
+[2021-02-17T16:09:21.021] [INFO] normal - ------------------------------
+[2021-02-17T16:09:29.619] [INFO] normal -  check-presence - roomid : eaqd // true
+[2021-02-17T16:41:16.499] [INFO] normal - roomList[eaqd] is :: [object Object]
+[2021-02-17T16:41:16.500] [INFO] normal - roomList[roomid][i]['userid'] : iz0jhgabzca // socket.userid : iz0jhgabzca
+[2021-02-17T16:41:16.506] [INFO] normal - -- delete(i == 0)
+[2021-02-17T16:41:16.507] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T16:41:16.507] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T16:41:16.507] [INFO] normal - roomList[eaqd] is delete 
+[2021-02-17T16:43:37.385] [INFO] normal -  check-presence - roomid : eaqd // true
+[2021-02-17T16:43:43.140] [INFO] normal - roomList[eaqd] is :: [object Object]
+[2021-02-17T16:43:43.140] [INFO] normal - roomList[roomid][i]['userid'] : 8xf6eynnyt5 // socket.userid : 8xf6eynnyt5
+[2021-02-17T16:43:43.140] [INFO] normal - -- delete(i == 0)
+[2021-02-17T16:43:43.140] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T16:43:43.140] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T16:43:43.141] [INFO] normal - roomList[eaqd] is delete 
+[2021-02-17T16:43:50.584] [INFO] normal -  check-presence - roomid : zxc // true
+[2021-02-17T16:44:04.622] [INFO] normal - roomList[zxc] is :: [object Object]
+[2021-02-17T16:44:04.623] [INFO] normal - roomList[roomid][i]['userid'] : 4p1ogrzxfnd // socket.userid : 4p1ogrzxfnd
+[2021-02-17T16:44:04.623] [INFO] normal - -- delete(i == 0)
+[2021-02-17T16:44:04.623] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T16:44:04.623] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T16:44:04.623] [INFO] normal - roomList[zxc] is delete 
+[2021-02-17T16:44:11.746] [INFO] normal -  check-presence - roomid : dsfsdfzsdf // true
+[2021-02-17T16:44:23.058] [INFO] normal - roomList[dsfsdfzsdf] is :: [object Object]
+[2021-02-17T16:44:23.059] [INFO] normal - roomList[roomid][i]['userid'] : axad7fufp34 // socket.userid : axad7fufp34
+[2021-02-17T16:44:23.059] [INFO] normal - -- delete(i == 0)
+[2021-02-17T16:44:23.059] [INFO] normal -  ---- disconnect - delete after - room user list log start ---- 
+[2021-02-17T16:44:23.060] [INFO] normal -  ---- disconnect - delete after - room user list log end ---- 
+[2021-02-17T16:44:23.060] [INFO] normal - roomList[dsfsdfzsdf] is delete 

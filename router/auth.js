@@ -66,6 +66,15 @@ router.post('/penalty', (req) => {
         });
 });
 
+router.post('/master', (req) => {
+    console.log('attempt to set room master');
+    var receiveEmail = req.body.email;
+    User.updateOne({master : true})
+        .then(result => {
+            console.log(result);
+        });
+});
+
 module.exports = router;
 
 //express-session은 req 객체안에 req.session 객체를 만든다.
